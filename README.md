@@ -69,7 +69,7 @@ write the reducer logic for the actions 👉 Rinse and repeat
 
 [x]- User should be able to remove added features from their car
 
-- Total should update as user adds and removes features from their car
+[x]- Total should update as user adds and removes features from their car
 
 ### Task 3: Stretch Problems
 
@@ -82,4 +82,4 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 
 ## Submission Format
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's Repo). **Please don't merge your own pull request**

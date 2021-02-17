@@ -9,7 +9,6 @@ const initialState = {
 };
 
 export const carReducer = (state = initialState, action) => {
-  console.log('action" ', action);
   switch (action.type) {
     case ADD_FEATURE:
       return {
