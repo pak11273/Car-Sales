@@ -1,3 +1,5 @@
+import { ADD_FEATURE, REMOVE_FEATURE } from "../types";
+
 const initialState = {
   price: 26395,
   name: "2019 Ford Mustang",
@@ -8,10 +10,18 @@ const initialState = {
 
 export const carReducer = (state = initialState, action) => {
   switch (action.type) {
-    case "ADD_FEATURE":
+    case ADD_FEATURE:
       return {
         ...state,
         features: [...state.features, action.payload],
+      };
+
+    case REMOVE_FEATURE:
+      return {
+        ...state,
+        features: state.features.filter((feature) => {
+          return feature.id !== action.payload;
+        }),
       };
 
     default:
