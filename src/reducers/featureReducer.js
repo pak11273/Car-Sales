@@ -7,12 +7,6 @@ export const initialState = [
 
 export const featuresReducer = (state = initialState, action) => {
   switch (action.type) {
-    case "ADD_FEATURE":
-      return {
-        ...state,
-        feature: [...state.additionalFeatures, action.payload],
-      };
-
     default:
       return initialState;
   }
